@@ -5,6 +5,6 @@ class W3t < Formula
     sha256 "5861feeca2499f3b34b57500f1a39754bf5419900012b7195e3ebe7c11980249"
     version "0.0.1"
     def install
-      bin.install "wt3"
+      bin.install "w3t"
     end
   end
