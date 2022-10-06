@@ -2,7 +2,7 @@ class W3t < Formula
     desc "web3 terminal utils"
     homepage "https://github.com/helderjnpinto/w3t"
     url "https://github.com/helderjnpinto/w3t/releases/download/v0.0.1/w3t-linux.tar.gz"
-    sha256 "e2019854982d81d0beae24e4b9aeecaba148969ee33c79d8aa0794331c8749ea"
+    sha256 "9bc2ed07dbeb7b2d8383cbd0f3db9509feb39afa0ee4010f77354abcd0ccaca5"
     version "0.0.1"
     def install
       bin.install "w3t"
