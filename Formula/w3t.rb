@@ -1,4 +1,4 @@
-class w3t < Formula
+class W3t < Formula
     desc "web3 terminal utils"
     homepage "https://github.com/helderjnpinto/w3t"
     url "https://github.com/helderjnpinto/w3t/releases/download/v0.0.1/w3t-linux.tar.gz"
