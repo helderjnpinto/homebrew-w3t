@@ -31,13 +31,13 @@ class W3t < Formula
     end
   end
 
-  on_windows do
-    url "https://github.com/helderjnpinto/w3t/releases/download/v0.0.3/w3t-win.tar.gz"
-    sha256 "0dc793f0e14e49801e61d6ac9b1c7ca383c30e62f51bcc21b83ee8ae94bb9d9f"
+  # on_windows do // same as linux WSL
+  #   url "https://github.com/helderjnpinto/w3t/releases/download/v0.0.3/w3t-win.tar.gz"
+  #   sha256 "0dc793f0e14e49801e61d6ac9b1c7ca383c30e62f51bcc21b83ee8ae94bb9d9f"
 
-    def install
-      bin.install "w3t"
-    end
-  end
+  #   def install
+  #     bin.install "w3t"
+  #   end
+  # end
 
 end
