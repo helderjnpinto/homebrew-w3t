@@ -1,7 +1,7 @@
 class W3t < Formula
   desc "web3 terminal utils"
   homepage "https://github.com/helderjnpinto/w3t"
-  version "0.0.3"
+  version "0.0.4"
 
   on_linux do
     url "https://github.com/helderjnpinto/w3t/releases/download/v0.0.4/w3t-linux.tar.gz"
