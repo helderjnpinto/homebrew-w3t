@@ -4,8 +4,8 @@ class W3t < Formula
   version "0.0.3"
 
   on_linux do
-    url "https://github.com/helderjnpinto/w3t/releases/download/v0.0.3/w3t-linux.tar.gz"
-    sha256 "2c80584d86d4a52346ac8adb9e007b06eb1044432231e7e3b877833674111ccf"
+    url "https://github.com/helderjnpinto/w3t/releases/download/v0.0.4/w3t-linux.tar.gz"
+    sha256 "82a4a40bceea3fa20f66f37076bef4e128d923dfca85386bc403dca2b49de9a7"
 
     def install
       bin.install "w3t"
@@ -13,8 +13,8 @@ class W3t < Formula
   end
 
   on_macos do
-    url "https://github.com/helderjnpinto/w3t/releases/download/v0.0.3/w3t-macos.tar.gz"
-    sha256 "386c5a6c86be6e21cd82b06f3729284783cb579a701a7ecae2faabc838d5b9e7"
+    url "https://github.com/helderjnpinto/w3t/releases/download/v0.0.4/w3t-macos.tar.gz"
+    sha256 "ddd17722bc243a1cd070877dbc3f806da3e83ae3f0f9658c0928f14addc9fd20"
 
     def install
       bin.install "w3t"
@@ -32,8 +32,8 @@ class W3t < Formula
   end
 
   # on_windows do // same as linux WSL
-  #   url "https://github.com/helderjnpinto/w3t/releases/download/v0.0.3/w3t-win.tar.gz"
-  #   sha256 "0dc793f0e14e49801e61d6ac9b1c7ca383c30e62f51bcc21b83ee8ae94bb9d9f"
+  #   url "https://github.com/helderjnpinto/w3t/releases/download/v0.0.4/w3t-win.tar.gz"
+  #   sha256 "e88ea590e9735a956292c2e8fbad71ab8b8a8ad06b03c8bdf9942d6118ecb7fa"
 
   #   def install
   #     bin.install "w3t"
